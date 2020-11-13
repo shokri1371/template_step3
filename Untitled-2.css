@@ -8,15 +8,14 @@
     .boxes{
         width: 100%;
         height: 100%;
-        position: relative;
         display: table;
         font-family: 'Muli', Arial, sans-serif;
         }
     .col1{
-        width: 1080px;
+        width: 80%;
         height:1230px;
         float: right;
-        background-color:#f4f3ef;
+        background-color:#f4f3ef;  /*#f4f3ef*/
         display: table; 
     }
     .col1:after{
@@ -32,7 +31,7 @@
         top:370px;
         margin-top: -265px;
         transform: rotate(45deg);
-        margin-left: -1089px;
+        margin-left: -80.5%;
         background:  #f4f3ef;
     
         }
@@ -171,18 +170,16 @@
 }
 
     .col2{
-        width:250px;
+        width:17%;
         height:625px;
-        float: left;
         font: 15px;
-        color: white;
         background-color: white;
         position: fixed;
+
     }
     .col22{
         height:45px;
-        float: left;
-        width: 250px;
+        width: 100%;
         background-color:white;
         justify-content: center;
         text-align: center;
@@ -270,75 +267,60 @@
   }
   .dd2:hover > .d2 {
     background-image: url("chart2.png");
-    position: fixed;
 }
 .dd3:hover > .d3 {
     background-image: url("chart3.png");
-    position: fixed;
 }
 .dd4:hover > .d4 {
     background-image: url("chart4.png");
-    position: fixed;
 }
 .dd5:hover > .d5 {
     background-image: url("chart5.png");
-    position: fixed;
 }
 .dd6:hover > .d6 {
     background-image: url("chart6.png");
-    position: fixed;
 }
 .dd7:hover > .d7 {
     background-image: url("chart7.png");
-    position: fixed;
 }
 .dd8:hover > .d8 {
     background-image: url("ico88.png");
-    position: fixed;
 }
 #dd88:hover{
     color: gray;
-
 }
   #d1{
       color: orangered;
   }
   .row_empty1{
-      height: 100px;
+      height: 20px;
   }
   .row_empty2{
     height: 63px;
 }
 
 
-@media only screen and (max-width:801px) {
+@media only screen and (min-width:1051px) and (max-width:1201px){
     .col1{
-        width: 900px;
+        width: 78%;
         height:1230px;
         float: right;
         background-color:#f4f3ef;
         display: table; 
 
     }
-    .col1:after{
-        position: absolute;
-        content: ' ';
-        width: 0px;
-        height: 0px;
-        border-top: 0px solid;
-        border-right: 0px solid ;
-        border-bottom: 20px solid#f4f3ef;
-        border-left: 20px solid #f4f3ef;
-        left: 100%;
-        top: 30%;
-        margin-top: -265px;
-        transform: rotate(45deg);
-        margin-left: -1089px;
-        background:  #f4f3ef;
-    
-        }
+    .col2{
+        width:22%;
+        height:625px;
+        position: fixed;
+    }
+    .col22{
+        height:45px;
+        width: 100%;
+    }
+ 
 .col11{
-        width:63%;
+        width:55%;
         height:70px;
         float: left;
         background-color: #f4f3ef;
@@ -362,7 +344,7 @@
     background-image: url("pic6.png");
     background-repeat: no-repeat;
     float: right;
-    width: 37%;
+    width: 45%;
     height: 70px;
     border-bottom-style:solid;
     border-width: 1px;
@@ -371,7 +353,7 @@
 }
 .col3{
     height: 200px;
-    width:98%;
+    width:100%;
     display: table; 
     cursor: pointer;
 }
@@ -380,12 +362,10 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 320px;
-    float: left;
 }
 .col2p{
    display: none;
 }
-
 .col3p{
     display: none;
 }
@@ -415,18 +395,18 @@
 }
 .col8{
     height: 80px;
-    width: 900;
+    width: 100%;
     font-size: 15px;
     color: gray;
 }
 .col81{
-    width: 100px;
+    width: 110px;
     padding-bottom: 25px;
     float: left;
     color: gray;
     font-family: 'Muli', Arial, sans-serif;
     padding-top: 25px;
-    padding-left: 25px;
+    padding-left: 35px;
 
 }
 .col82{
@@ -450,18 +430,16 @@
     color: gray;
     font-family: 'Muli', Arial, sans-serif;
 }
-
-
+.row_empty2{
+    height: 58px;
 }
+}
+@media only screen and (min-width:200px) and (max-width:1050px) {
 
-@media only screen and (max-width:700px) {
 .col1{
-        width: 1000px;
+        width: 100%;
         height:1730px;
-        float: right;
-        background-color:#f4f3ef;
         display: table; 
-
     }
     .col1:after{
    display: none;
@@ -469,9 +447,8 @@
 .col11{
         width:90%;
         height:70px;
-        float: left;
         background-color: #f4f3ef;
-        border-bottom-style:solid;
+        border-bottom-style: solid;
         border-width: 1px;
         border-color: rgb(196, 191, 191);
     }
@@ -534,17 +511,12 @@
     background-repeat: no-repeat;
     height: 525px;
     width: 100%;
-    float: right;
 }
 .col7{
     background-image: url("pic777.png");
     background-repeat: no-repeat;
     height: 525px;
     width: 100%;
-    float: right;
-    border-bottom-style:solid;
-    border-width: 1px;
-    border-color: gray;
 }
 .col8{
     height: 80px;
@@ -583,9 +555,6 @@
     color: gray;
     font-family: 'Muli', Arial, sans-serif;
 }
+.col2{display: none;}
 
-
-.col2{
-    display: none;
-}
 }
